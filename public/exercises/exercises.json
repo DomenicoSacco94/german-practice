@@ -5,101 +5,12 @@
       "text": "Ich warte [fillText] dem Bus [fillText] der Haltestelle.",
       "solutions": [
         {
-          "text": "auf",
+          "values": ["auf"],
           "explanation": "The verb 'warten' requires the preposition 'auf' with the accusative case."
         },
         {
-          "text": "an",
+          "values": ["an"],
           "explanation": "The preposition 'an' is used for fixed points such as stops or stations, followed by the dative case."
-        }
-      ]
-    },
-    {
-      "text": "Wir fahren [fillText] die Schweiz [fillText] Urlaub.",
-      "solutions": [
-        {
-          "text": "in",
-          "explanation": "Countries with articles (die Schweiz) require 'in' with the accusative case when indicating movement."
-        },
-        {
-          "text": "zum",
-          "explanation": "The preposition 'zu' with the dative case is used to indicate purpose or destination."
-        }
-      ]
-    },
-    {
-      "text": "Das Geschenk ist [fillText] meine Mutter.",
-      "solutions": [
-        {
-          "text": "für",
-          "explanation": "The preposition 'für' takes the accusative case and is used to indicate the beneficiary of an action."
-        }
-      ]
-    },
-    {
-      "text": "Er sitzt [fillText] Tisch und trinkt Kaffee.",
-      "solutions": [
-        {
-          "text": "am",
-          "explanation": "The contraction 'am' (an + dem) is used for positions at surfaces or objects and takes the dative case."
-        }
-      ]
-    },
-    {
-      "text": "Ich interessiere mich [fillText] Kunst.",
-      "solutions": [
-        {
-          "text": "für",
-          "explanation": "The reflexive verb 'sich interessieren' always takes 'für' with the accusative case."
-        }
-      ]
-    },
-    {
-      "text": "Wir treffen uns [fillText] Bahnhof.",
-      "solutions": [
-        {
-          "text": "am",
-          "explanation": "'an' with the dative case is used for specific locations like stations and stops."
-        }
-      ]
-    },
-    {
-      "text": "Er fährt [fillText] Hamburg [fillText] Auto.",
-      "solutions": [
-        {
-          "text": "nach",
-          "explanation": "The preposition 'nach' is used for cities and countries without an article."
-        },
-        {
-          "text": "mit",
-          "explanation": "The preposition 'mit' takes the dative case and is used to indicate means of transportation."
-        }
-      ]
-    },
-    {
-      "text": "Ich arbeite [fillText] einer großen Firma.",
-      "solutions": [
-        {
-          "text": "bei",
-          "explanation": "The preposition 'bei' with the dative case is used to indicate employment at a company."
-        }
-      ]
-    },
-    {
-      "text": "Der Schlüssel liegt [fillText] dem Tisch.",
-      "solutions": [
-        {
-          "text": "auf",
-          "explanation": "The preposition 'auf' with the dative case is used to indicate a position on a horizontal surface."
-        }
-      ]
-    },
-    {
-      "text": "Er geht [fillText] Hause.",
-      "solutions": [
-        {
-          "text": "nach",
-          "explanation": "The fixed phrase 'nach Hause' is used to indicate movement towards one's home."
         }
       ]
     }

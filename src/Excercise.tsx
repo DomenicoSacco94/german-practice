@@ -2,7 +2,7 @@ import './App.css'
 import {useEffect, useState} from 'react';
 import {Button, Input, Tooltip} from "antd";
 
-const Exercise = ({exercise} : {exercise: {text : string, solutions : [{text: string, explanation: string}]}}) => {
+const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: string, explanation: string}]}}) => {
   const parts = exercise.text.split('[fillText]');
   const defaultArray = Array(parts.length - 1).fill('');
   const [inputs, setInputs] = useState(defaultArray);
@@ -10,9 +10,9 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{text: st
   const [score, setScore] = useState<number | null>(null);
 
   useEffect(() => {
-      const defaultArray = Array(parts.length - 1).fill('');
       setInputs(defaultArray);
       setTooltips(defaultArray);
+      setScore(null)
   }, [exercise]);
 
   const handleChange = (index, value) => {
@@ -21,12 +21,16 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{text: st
     setInputs(newInputs);
   };
 
+  const isSolutionCorrect = (userInput, solutions) => {
+      return userInput.length> 0 && solutions.includes(userInput)
+    }
+
   const checkSolution = () => {
       const newToolTips = [...defaultArray];
       let mistakes = 0;
       exercise.solutions.forEach((solution, index) => {
-          if (inputs[index].length == 0 || !solution.text.includes(inputs[index])) {
-              newToolTips[index] = "[" + solution.text + "] - " + solution.explanation;
+          if (!isSolutionCorrect(inputs[index],solution. values)) {
+              newToolTips[index] = "[" + solution.values + "] - " + solution.explanation;
               mistakes++;
           }
       });
@@ -60,7 +64,7 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{text: st
       ))}
       </div>
       <Button className="validateButton" onClick={checkSolution}>Check Solution</Button>
-      {score!=null && <div className="scoreDisplay" style={{color: score<60 ? 'red' : score < 80? 'yellow' : 'green'}}> Your score is {score} % </div>}
+      {score!==null && <div className="scoreDisplay" style={{color: score<60 ? 'red' : score < 80? 'yellow' : 'green'}}> Your score is {score} % </div>}
     </div>
   );
 };

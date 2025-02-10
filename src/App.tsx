@@ -10,7 +10,7 @@ function App() {
   const [exercises, setExercises] = useState(null);
 
   useEffect(() => {
-    fetch('/exercises/exercises.json')
+    fetch('/german-practice/exercises/exercises.json')
       .then(response => response.json())
       .then(data => setExercises(data))
       .catch(error => console.error('Error fetching exercises:', error))

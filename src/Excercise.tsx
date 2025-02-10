@@ -4,7 +4,7 @@ import {Button, Input, Tooltip} from "antd";
 
 const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: string, explanation: string}]}}) => {
   const parts = exercise.text.split('[fillText]');
-  const defaultArray = Array(parts.length - 1).fill('');
+  const defaultArray = Array(parts.length - 1).fill(null);
   const [inputs, setInputs] = useState(defaultArray);
   const [toolTips, setTooltips] = useState(defaultArray);
   const [score, setScore] = useState<number | null>(null);
@@ -22,7 +22,7 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
   };
 
   const isSolutionCorrect = (userInput, solutions) => {
-      return userInput.length> 0 && solutions.includes(userInput)
+      return userInput?.length> 0 && solutions.includes(userInput)
     }
 
   const checkSolution = () => {
@@ -30,11 +30,14 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
       let mistakes = 0;
       exercise.solutions.forEach((solution, index) => {
           if (!isSolutionCorrect(inputs[index],solution. values)) {
+              console.log(inputs[index])
               newToolTips[index] = "[" + solution.values + "] - " + solution.explanation;
               mistakes++;
           }
       });
-      setScore((1 - mistakes/defaultArray.length) * 100);
+      console.log(mistakes)
+      console.log(defaultArray.length)
+      setScore((1 - (mistakes/defaultArray.length)) * 100);
       setTooltips(newToolTips);
   };
 
@@ -50,10 +53,10 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
                       type="text"
                       className="holeInput"
                       value={inputs[index]}
-                      style = {{borderColor: toolTips[index].length > 0 ? 'red' : 'black'}}
+                      style = {{borderColor: toolTips[index]?.length > 0 ? 'red' : 'black'}}
                       onChange={(e) => handleChange(index, e.target.value)}
                   />
-                  {toolTips[index].length > 0 && (
+                  {toolTips[index]?.length > 0 && (
                       <Tooltip title={toolTips[index]}>
                           <span className="tooltipIcon">ℹ️</span>
                       </Tooltip>
@@ -64,7 +67,7 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
       ))}
       </div>
       <Button className="validateButton" onClick={checkSolution}>Check Solution</Button>
-      {score!==null && <div className="scoreDisplay" style={{color: score<60 ? 'red' : score < 80? 'yellow' : 'green'}}> Your score is {score} % </div>}
+      {score!==null && <div className="scoreDisplay" style={{color: score<60 ? 'red' : score < 80? 'orange' : 'green'}}> Your score is {score} % </div>}
     </div>
   );
 };

@@ -28,7 +28,7 @@ function App() {
             <h1>{exercises.description}</h1>
             <Select defaultValue={0} style={{ width: 120 }} onChange={handleChange}>
               {exercises.exercises.map((_, index) => (
-                <Option key={_.toString()} value={index}>
+                <Option key={index} value={index}>
                   Exercise {index + 1}
                 </Option>
               ))}

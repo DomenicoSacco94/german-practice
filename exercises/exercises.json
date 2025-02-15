@@ -135,6 +135,251 @@
           "explanation": "Das Verb 'kämpfen' wird mit 'gegen' kombiniert, z. B. 'gegen die Müdigkeit kämpfen'."
         }
       ]
+    },
+    {
+      "text": "Beim Verlassen des Hauses [fillText] einem kühlen Morgen, stieg ich [fillText] mein Fahrrad und fuhr den verkehrsreichen Weg [fillText], der [fillText] die Innenstadt führte. Unterwegs hielt ich [fillText] einem belebten Platz, wo ich [fillText] der Menschenmenge das Treiben beobachtete. Schließlich erreichte ich das Büro [fillText] großer Vorfreude, bereit, mich [fillText] die Herausforderungen des Tages zu stellen, und trotzte [fillText] allen Zweifeln [fillText] gegenüber.",
+      "solutions": [
+        {
+          "values": ["an"],
+          "explanation": "Die Zeitangabe 'an einem kühlen Morgen' ist üblich."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Das Verb 'steigen' wird mit 'auf' kombiniert (auf das Fahrrad steigen)."
+        },
+        {
+          "values": ["entlang"],
+          "explanation": "Die Bewegung wird mit 'entlang' ausgedrückt (entlang des Weges)."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Die Richtung 'in die Innenstadt' wird mit 'in' angezeigt."
+        },
+        {
+          "values": ["an"],
+          "explanation": "Das Anhalten an einem Ort erfordert 'an'."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Die Formulierung 'in der Menschenmenge' ist korrekt."
+        },
+        {
+          "values": ["mit"],
+          "explanation": "Die Begleitung oder Art und Weise wird mit 'mit' ausgedrückt."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Bereitschaft wird oft mit 'auf' verknüpft (auf die Herausforderungen)."
+        },
+        {
+          "values": ["trotz"],
+          "explanation": "Das Verb 'trotzen' wird mit 'trotz' verwendet."
+        },
+        {
+          "values": ["gegenüber"],
+          "explanation": "Die Beziehung wird mit 'gegenüber' angezeigt."
+        }
+      ]
+    },
+    {
+      "text": "Auf dem Weg [fillText] der Bibliothek, fand ich ein altes Buch, das [fillText] einer geheimnisvollen Geschichte erzählte. Ich setzte mich [fillText] eine Bank, um [fillText] der Ruhe des Parks zu genießen. Während ich darin vertieft war, kam ein Freund [fillText] der Nachbarschaft vorbei, der mich [fillText] seinen neuesten Abenteuern berichtete. Nachdem wir uns [fillText] die Erinnerungen gewidmet hatten, gingen wir [fillText] das gemütliche Café, um [fillText] einem heißen Getränk zu frönen, und plauderten [fillText] über vergangene Zeiten.",
+      "solutions": [
+        {
+          "values": ["zur"],
+          "explanation": "Die Zielangabe 'zur Bibliothek' ist korrekt (zu der Bibliothek → zur Bibliothek)."
+        },
+        {
+          "values": ["von"],
+          "explanation": "Man erzählt 'von' etwas, also 'von einer geheimnisvollen Geschichte'."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Sich setzen 'auf' eine Bank ist üblich."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Man genießt etwas 'in' einem Zustand, hier 'in der Ruhe des Parks'."
+        },
+        {
+          "values": ["aus"],
+          "explanation": "Die Herkunft wird mit 'aus' ausgedrückt, also 'aus der Nachbarschaft'."
+        },
+        {
+          "values": ["von"],
+          "explanation": "Man berichtet 'von' seinen Erlebnissen."
+        },
+        {
+          "values": ["an"],
+          "explanation": "Hier wird 'an' verwendet, um den Fokus der Widmung auszudrücken."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Die Bewegung in einen Ort erfordert 'in' (in das Café)."
+        },
+        {
+          "values": ["bei"],
+          "explanation": "Das angenehme Umfeld wird mit 'bei' einem heißen Getränk verbunden."
+        },
+        {
+          "values": ["über"],
+          "explanation": "Man plaudert 'über' ein Thema."
+        }
+      ]
+    },
+    {
+      "text": "Nach einem anstrengenden Tag im Büro, fuhr ich [fillText] dem Feierabendverkehr und begegnete [fillText] einer unerwarteten Verzögerung. Ich stieg [fillText] den Bus und setzte mich [fillText] einen freien Sitz, um mich [fillText] den Strapazen des Tages auszuruhen. Während der Fahrt dachte ich [fillText] meine Erlebnisse nach, und bald fand ich mich [fillText] einem Gespräch [fillText] einem alten Freund wieder. Zum Abschied umarmten wir uns [fillText] einer herzlichen Geste, und ich verabschiedete mich [fillText] die Erinnerung an schöne Momente.",
+      "solutions": [
+        {
+          "values": ["in"],
+          "explanation": "Man fährt 'in' den Verkehr (im Feierabendverkehr)."
+        },
+        {
+          "values": ["bei"],
+          "explanation": "Eine unerwartete Verzögerung tritt 'bei' einer Situation auf."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Man steigt 'in' den Bus ein."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Sich setzen 'auf' einen freien Sitz ist korrekt."
+        },
+        {
+          "values": ["von"],
+          "explanation": "Erholung erfolgt 'von' den Strapazen des Tages."
+        },
+        {
+          "values": ["an"],
+          "explanation": "Man denkt 'an' seine Erlebnisse."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Sich in einem Gespräch wiederfinden ist üblich."
+        },
+        {
+          "values": ["mit"],
+          "explanation": "Ein Gespräch führt man 'mit' jemandem."
+        },
+        {
+          "values": ["mit"],
+          "explanation": "Umarmungen geschehen 'mit' einer herzlichen Geste."
+        },
+        {
+          "values": ["mit"],
+          "explanation": "Das Abschiednehmen kann 'mit' einem Gefühl verbunden sein."
+        }
+      ]
+    },
+    {
+      "text": "Beim Spaziergang [fillText] dem frischen Herbstwind, beobachtete ich, wie die Blätter [fillText] den Bäumen herabfielen. Ich blieb stehen [fillText] einem verwunschenen Pfad, der sich [fillText] einen kleinen See schlängelte. Neugierig trat ich [fillText] das Ufer, um mich [fillText] der Stille der Natur hinzugeben. Plötzlich ertönte ein Geräusch [fillText] der Ferne, und ich erinnerte mich [fillText] vergangene Zeiten, die mich [fillText] warmen Gefühlen erfüllten. Der Himmel war [fillText] einem klaren Blau. ",
+      "solutions": [
+        {
+          "values": ["im"],
+          "explanation": "Die Formulierung 'im Herbstwind' ist gängig (in dem Herbstwind → im Herbstwind)."
+        },
+        {
+          "values": ["von"],
+          "explanation": "Die Blätter fallen 'von' den Bäumen."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Man bleibt 'auf' einem Pfad stehen."
+        },
+        {
+          "values": ["um"],
+          "explanation": "Die Bewegung 'um einen See' ist üblich."
+        },
+        {
+          "values": ["an"],
+          "explanation": "Man tritt 'an' das Ufer heran."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Man gibt sich 'in' der Stille der Natur hinzu."
+        },
+        {
+          "values": ["aus"],
+          "explanation": "Ein Geräusch ertönt 'aus' der Ferne."
+        },
+        {
+          "values": ["an"],
+          "explanation": "Die feste Wendung lautet 'sich erinnern an' vergangene Zeiten."
+        },
+        {
+          "values": ["von"],
+          "explanation": "Gefühle werden häufig 'von' etwas erfüllt."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Die Beschreibung 'in einem klaren Blau' ist üblich."
+        }
+      ]
+    },
+    {
+      "text": "Am frühen Abend, als die Sonne [fillText] dem Horizont sank, machte ich mich [fillText] auf den Heimweg. Ich ging [fillText] die belebten Straßen, vorbei [fillText] den leuchtenden Schaufenstern und unterhielt mich [fillText] einem freundlichen Passanten. Auf dem Weg begegnete ich [fillText] einem Künstler, der seine Werke [fillText] der Abenddämmerung präsentierte. Schließlich erreichte ich mein Zuhause [fillText] einer Mischung [fillText] Erleichterung und Zufriedenheit, als der Tag sich seinem Ende näherte. Ich schaute [fillText] den funkelnden Sternen, die den Nachthimmel schmückten.",
+      "solutions": [
+        {
+          "values": [
+            "hinter"
+          ],
+          "explanation": "Die Sonne sinkt 'hinter' dem Horizont."
+        },
+        {
+          "values": [
+            "auf"
+          ],
+          "explanation": "Sich 'auf den Heimweg' machen ist eine feste Wendung."
+        },
+        {
+          "values": [
+            "durch"
+          ],
+          "explanation": "Man geht 'durch' die belebten Straßen."
+        },
+        {
+          "values": [
+            "an"
+          ],
+          "explanation": "Die Wendung 'vorbei an' den Schaufenstern ist korrekt."
+        },
+        {
+          "values": [
+            "mit"
+          ],
+          "explanation": "Man unterhält sich 'mit' einem Passanten."
+        },
+        {
+          "values": [
+            "bei"
+          ],
+          "explanation": "Hier wird 'bei' als Ortsangabe interpretiert."
+        },
+        {
+          "values": [
+            "in"
+          ],
+          "explanation": "Künstler präsentieren ihre Werke 'in' der Abenddämmerung."
+        },
+        {
+          "values": [
+            "mit"
+          ],
+          "explanation": "Das Erreichen des Zuhauses wird hier mit einer Stimmung verknüpft."
+        },
+        {
+          "values": [
+            "aus"
+          ],
+          "explanation": "Eine Mischung 'aus' Erleichterung und Zufriedenheit ist üblich."
+        },
+        {
+          "values": [
+            "zu"
+          ],
+          "explanation": "Man schaut 'zu' den funkelnden Sternen."
+        }
+      ]
     }
   ]
 }

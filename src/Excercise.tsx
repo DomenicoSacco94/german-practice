@@ -35,8 +35,6 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
               mistakes++;
           }
       });
-      console.log(mistakes)
-      console.log(defaultArray.length)
       setScore((1 - (mistakes/defaultArray.length)) * 100);
       setTooltips(newToolTips);
   };
@@ -53,7 +51,7 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
                       type="text"
                       className="holeInput"
                       value={inputs[index]}
-                      style = {{borderColor: toolTips[index]?.length > 0 ? 'red' : 'black'}}
+                      style = {{borderColor: toolTips[index]?.length > 0 ? 'red' : inputs[index]?.length > 0 && score!=null? 'green' : 'black'}}
                       onChange={(e) => handleChange(index, e.target.value)}
                   />
                   {toolTips[index]?.length > 0 && (

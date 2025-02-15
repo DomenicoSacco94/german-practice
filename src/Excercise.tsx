@@ -30,7 +30,6 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
       let mistakes = 0;
       exercise.solutions.forEach((solution, index) => {
           if (!isSolutionCorrect(inputs[index],solution. values)) {
-              console.log(inputs[index])
               newToolTips[index] = "[" + solution.values + "] - " + solution.explanation;
               mistakes++;
           }

@@ -1,16 +1,138 @@
 {
-  "description": "More exercises about German prepositions",
+  "description": "Weitere Übungen zu deutschen Präpositionen",
   "exercises": [
     {
-      "text": "Ich warte [fillText] dem Bus [fillText] der Haltestelle.",
+      "text": "Als ich [fillText] der Schule ankam, verließ ich das Gebäude [fillText] Hast. Ich ging [fillText] den Bürgersteig und wartete [fillText] den Bus. Dabei begegnete ich einem Freund, der [fillText] der Bushaltestelle stand, und erzählte mir, dass er [fillText] einen heftigen Streit geraten sei. Nachdem wir uns [fillText] das Gespräch verabschiedet hatten, setzte ich meinen Weg fort, lief [fillText] den Park, und setzte mich [fillText] eine Bank, um mich [fillText] die Hitze des Tages zu wehren.",
       "solutions": [
         {
+          "values": ["an"],
+          "explanation": "Die Präposition 'an' wird verwendet, um die Annäherung an einen Ort zu beschreiben, z. B. 'an der Schule ankommen'."
+        },
+        {
+          "values": ["aus"],
+          "explanation": "Die Präposition 'aus' drückt den Beweggrund aus – hier im Sinne von 'aus Hast' (in Eile)."
+        },
+        {
           "values": ["auf"],
-          "explanation": "The verb 'warten' requires the preposition 'auf' with the accusative case."
+          "explanation": "Mit 'auf' wird die Richtung auf eine Fläche angezeigt, z. B. 'auf den Bürgersteig gehen'."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Das Verb 'warten' verlangt die Präposition 'auf', wie in 'warten auf den Bus'."
+        },
+        {
+          "values": ["vor"],
+          "explanation": "Die Präposition 'vor' zeigt an, dass etwas unmittelbar davor liegt, z. B. 'vor der Bushaltestelle stehen'."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Die Wendung 'in einen Streit geraten' verwendet 'in', um einen Vorgang oder Zustand zu beschreiben."
+        },
+        {
+          "values": ["von"],
+          "explanation": "Bei der Verabschiedung verwendet man 'von', wie in 'sich von dem Gespräch verabschieden'."
+        },
+        {
+          "values": ["durch"],
+          "explanation": "Die Präposition 'durch' drückt eine Bewegung innerhalb eines Raumes aus, z. B. 'durch den Park laufen'."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Das Verb 'sich setzen' verlangt 'auf', wie in 'sich auf eine Bank setzen'."
+        },
+        {
+          "values": ["gegen"],
+          "explanation": "Bei 'sich wehren' wird 'gegen' verwendet, um den Widerstand auszudrücken, z. B. 'sich gegen die Hitze wehren'."
+        }
+      ]
+    },
+    {
+      "text": "Nach einem langen Arbeitstag verließ ich das Büro [fillText] Ermüdung und stieg [fillText] den Zug. Während der Fahrt blickte ich [fillText] das vorbeiziehende Landschaftsbild und dachte [fillText] vergangene Zeiten. Der Zug fuhr [fillText] einen malerischen Fluss, der [fillText] dichten Wäldern vorbeifloss. Plötzlich zog ein Gewitter [fillText] den Horizont auf, und ich erinnerte mich [fillText] ein Versprechen, das ich [fillText] meine Freunde gegeben hatte, während ich [fillText] die Stille der Nacht lauschte.",
+      "solutions": [
+        {
+          "values": ["aus"],
+          "explanation": "Die Präposition 'aus' drückt hier den Grund aus, z. B. 'aus Ermüdung'."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Man steigt in ein Verkehrsmittel ein – daher 'in den Zug'."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Mit 'blicken auf' richtet man den Blick auf etwas."
         },
         {
           "values": ["an"],
-          "explanation": "The preposition 'an' is used for fixed points such as stops or stations, followed by the dative case."
+          "explanation": "Die Wendung 'an vergangene Zeiten denken' verwendet die Präposition 'an'."
+        },
+        {
+          "values": ["entlang"],
+          "explanation": "Die Präposition 'entlang' drückt eine Bewegung parallel zu etwas aus, hier 'entlang den malerischen Fluss'."
+        },
+        {
+          "values": ["durch"],
+          "explanation": "Mit 'durch' wird eine Bewegung inmitten von etwas beschrieben, z. B. 'durch dichte Wälder'."
+        },
+        {
+          "values": ["über"],
+          "explanation": "Es ist gebräuchlich zu sagen, dass ein Gewitter 'über den Horizont' zieht."
+        },
+        {
+          "values": ["an"],
+          "explanation": "Die Konstruktion 'sich erinnern an' erfordert die Präposition 'an'."
+        },
+        {
+          "values": ["gegenüber"],
+          "explanation": "Die Präposition 'gegenüber' drückt eine Beziehung zu Personen aus, z. B. 'meinen Freunden gegenüber'."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Die feste Wendung 'in der Stille der Nacht' ist gebräuchlich."
+        }
+      ]
+    },
+    {
+      "text": "Am frühen Morgen, [fillText] frischer Energie, verließ ich mein Haus mit einem strahlenden Lächeln und machte mich [fillText] den Weg zur Arbeit. Unterwegs begegnete ich einem alten Bekannten, der [fillText] der Ecke eines belebten Marktes stand. Wir unterhielten uns [fillText] die vergangenen Zeiten und lachten [fillText] gemeinsame Erinnerungen. Danach setzte ich meine Fahrt fort, fuhr [fillText] einen verwinkelten Stadtteil, der reich [fillText] historischen Gebäuden war. Während ich [fillText] die vorbeiziehenden Häuser schaute, kurz bevor ich ankam, geriet ich [fillText] einen Stau, und kämpfte [fillText] die aufkommende Müdigkeit an.",
+      "solutions": [
+        {
+          "values": ["mit"],
+          "explanation": "Die Präposition 'mit' drückt Begleitung oder Art und Weise aus – hier 'mit frischer Energie'."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Die Redewendung 'sich auf den Weg machen' erfordert die Präposition 'auf'."
+        },
+        {
+          "values": ["an"],
+          "explanation": "Die Präposition 'an' wird verwendet, um einen genauen Ort zu benennen, z. B. 'an der Ecke'."
+        },
+        {
+          "values": ["über"],
+          "explanation": "Man unterhält sich 'über' etwas, daher 'über die vergangenen Zeiten'."
+        },
+        {
+          "values": ["über"],
+          "explanation": "Das Verb 'lachen' wird in der Wendung 'lachen über' verwendet."
+        },
+        {
+          "values": ["durch"],
+          "explanation": "Die Präposition 'durch' beschreibt die Bewegung innerhalb eines Stadtteils, z. B. 'durch einen verwinkelten Stadtteil'."
+        },
+        {
+          "values": ["an"],
+          "explanation": "Die Wendung 'reich an' drückt eine Fülle aus, z. B. 'reich an historischen Gebäuden'."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Die Konstruktion 'auf die Häuser schauen' ist gebräuchlich."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Man 'gerät in einen Stau', daher wird 'in' verwendet."
+        },
+        {
+          "values": ["gegen"],
+          "explanation": "Das Verb 'kämpfen' wird mit 'gegen' kombiniert, z. B. 'gegen die Müdigkeit kämpfen'."
         }
       ]
     }

@@ -22,7 +22,7 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
   };
 
   const isSolutionCorrect = (userInput, solutions) => {
-      return userInput?.length> 0 && solutions.includes(userInput)
+      return userInput?.length> 0 && solutions.includes(userInput.toLowerCase())
     }
 
   const validateExercise = () => {
@@ -41,6 +41,10 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
 
   const setBorderColor = (index: number) => {
       return toolTips[index]?.length > 0 ? 'red' : inputs[index]?.length > 0 && score!=null? 'green' : 'black'
+  }
+
+  if(!exercise) {
+      return null;
   }
 
   return (

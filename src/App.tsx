@@ -37,9 +37,7 @@ function App() {
         )}
       </div>
       <div className="exerciseCanvas">
-        {exercises && (
            <Exercise exercise={exercises.exercises[exerciseNum]} />
-        )}
       </div>
     </div>
   )

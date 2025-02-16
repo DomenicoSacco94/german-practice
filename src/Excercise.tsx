@@ -43,10 +43,6 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
       return toolTips[index]?.length > 0 ? 'red' : inputs[index]?.length > 0 && score!=null? 'green' : 'black'
   }
 
-  if(!exercise) {
-      return null;
-  }
-
   return (
     <div>
       <div>

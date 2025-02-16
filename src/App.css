@@ -18,6 +18,10 @@
     padding: 50px;
 }
 
+.exerciseSelector {
+    margin: 10px;
+}
+
 .inputContainer {
     display: inline-flex;
     margin-bottom: 10px;
@@ -34,7 +38,8 @@
 
 .holeText {
     display: inline-flex;
-    margin: 10px;
+    margin: 10px 0 10px 10px;
+    white-space: pre-wrap;
 }
 
 .holeInput {

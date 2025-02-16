@@ -27,33 +27,35 @@ function App() {
     setExerciseType(value)
   }
 
+  if(!exercises) {
+      return <div> Error - no exercises found </div>
+  }
+
   return (
     <div className="main">
       <div className="exerciseHeader">
-        {exercises && (
-          <>
             <h1>{exercises.description}</h1>
-            <Select className="exerciseSelector" defaultValue={exerciseTypesOptions[0]} onChange={handleExerciseTypeChange}>
-                <>
-                    {exerciseTypesOptions.map((exerciseType) => (
-                        <Option key={exerciseType} value={exerciseType}>
-                            Topic: {exerciseType}
-                        </Option>
-                    ))}
-                </>
-            </Select>
-            <Select className="exerciseSelector" defaultValue={0} onChange={handleExerciseNumChange}>
+      </div>
+      <div className="exerciseSelectors">
+          <Select className="exerciseSelector" defaultValue={exerciseTypesOptions[0]} onChange={handleExerciseTypeChange}>
+              <>
+                  {exerciseTypesOptions.map((exerciseType) => (
+                      <Option key={exerciseType} value={exerciseType}>
+                          Topic: {exerciseType}
+                      </Option>
+                  ))}
+              </>
+          </Select>
+          <Select className="exerciseSelector" defaultValue={0} onChange={handleExerciseNumChange}>
               {exercises.exercises.map((exercise, index) => (
-                <Option key={index} value={index}>
-                    {exercise.title}
-                </Option>
+                  <Option key={index} value={index}>
+                      {exercise.title}
+                  </Option>
               ))}
-            </Select>
-          </>
-        )}
+          </Select>
       </div>
       <div className="exerciseCanvas">
-          {exercises && <Exercise exercise={exercises.exercises[exerciseNum]}/>}
+          <Exercise exercise={exercises.exercises[exerciseNum]}/>
       </div>
     </div>
   )

@@ -1,15 +1,21 @@
 .main {
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
         "exerciseHeader"
+        "exerciseSelectors"
         "exerciseCanvas";
     justify-items: center;
 }
 
 .exerciseHeader {
     grid-area: exerciseHeader;
+    padding: 20px;
+}
+
+.exerciseSelectors {
+    grid-area: exerciseSelectors;
     padding: 20px;
 }
 

@@ -55,3 +55,27 @@
 .scoreDisplay {
     margin-top: 20px;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .main {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "exerciseHeader"
+            "exerciseSelectors"
+            "exerciseCanvas";
+    }
+
+    .exerciseSelectors {
+        flex-direction: column;
+    }
+
+    .exerciseCanvas {
+        padding: 10px;
+    }
+
+    .validateButton {
+        width: 100%;
+    }
+}

@@ -3,7 +3,7 @@
   "exercises": [
     {
       "title": "Adjektivdeklinationen - 1",
-      "text": "Als ich meinen alt[fillText] Freund in dem klein[fillText] Café traf, bestellte er einen heiß[fillText] Kaffee und einen frischgebacken[fillText] Kuchen. Der trüb[fillText] Himmel draußen passte nicht zu der fröhlich[fillText] Atmosphäre drinnen.",
+      "text": "Als ich meinen alt[fillText] Freund in dem klein[fillText] Café traf, bestellte er einen heiß[fillText] Kaffee und einen frischgeback[fillText] Kuchen. Der trüb[fillText] Himmel draußen passte nicht zu der fröhlich[fillText] Atmosphäre drinnen.",
       "solutions": [
         {
           "values": ["en"],

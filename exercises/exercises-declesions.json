@@ -2,7 +2,7 @@
   "description": "Übungen zu starken und schwachen Adjektivdeklinationen",
   "exercises": [
     {
-      "title": "Adjektivdeklinationen - 1",
+      "title": "Ein stimmungsvoller Cafébesuch",
       "text": "Als ich meinen alt[fillText] Freund in dem klein[fillText] Café traf, bestellte er einen heiß[fillText] Kaffee und einen frischgeback[fillText] Kuchen. Der trüb[fillText] Himmel draußen passte nicht zu der fröhlich[fillText] Atmosphäre drinnen.",
       "solutions": [
         {
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "title": "Adjektivdeklinationen - 2",
+      "title": "Stadtteil-Entdeckungen: Tradition trifft Moderne",
       "text": "Beim Besuch in einem neu[fillText] Stadtteil entdeckte ich eine alt[fillText] Kirche und einen modern[fillText] Marktplatz, wo Händler frische[fillText] Waren anboten. Die stolz[fillText] Einwohner erklärten, dass das lebhaft[fillText] Treiben dem ganztägig[fillText] Rhythmus der Umgebung entspreche.",
       "solutions": [
         {
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "title": "Adjektivdeklinationen - 3",
+      "title": "Magischer Abend im Lichterzauber",
       "text": "Auf dem groß[fillText] Feld des belebt[fillText] Marktplatzes stand ein bunt[fillText] Zelt, in dem wir einen unvergesslich[fillText] Abend verbrachten. Der warm[fillText] Schein der alten Laternen verlieh der still[fillText] Nacht einen geheimnisvoll[fillText] Glanz, während die durst[fillText] Gäste den frisch[fillText] gebrühten Tee genossen.",
       "solutions": [
         {
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "title": "Adjektivdeklinationen - 4",
+      "title": "Terrassen-Genuss: Tee, Torte und hausgemachte Delikatessen",
       "text": "Auf einer sonnig[fillText] Terrasse genoss ich einen aromatisch[fillText] Tee und aß eine zart[fillText] Schokoladentorte. Die freundlich[fillText] Bedienung erklärte, dass die hausgemacht[fillText] Delikatessen stets mit größter Sorgfalt zubereitet werden.",
       "solutions": [
         {
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "title": "Adjektivdeklinationen - 5",
+      "title": "Innovativer Unterricht: Lob für engagierte Schüler",
       "text": "Der Lehrer lobte die engagiert[fillText] Schüler, die in ihrem letzt[fillText] Unterricht einen besonders innovativ[fillText] Ansatz präsentiert hatten. Er betonte, dass ihre gründlich[fillText] vorbereiteten Projekte den anspruchsvoll[fillText] Anforderungen der modernen Bildung gerecht würden.",
       "solutions": [
         {
@@ -156,6 +156,330 @@
         {
           "values": ["en"],
           "explanation": "Für 'den anspruchsvollen Anforderungen' (Plural im Dativ mit bestimmtem Artikel) erhält das Adjektiv die Endung -en."
+        }
+      ]
+    },
+    {
+      "title": "Der stürmische Abend, der alle Erwartungen übertraf",
+      "text": "An einem stürmisch[fillText] Abend, als der dunkel[fillText] Himmel von blitzschnell[fillText] Blitzen erleuchtet wurde, fuhren die klein[fillText] Boote über das unruhig[fillText] Meer. Obwohl die tapfer[fillText] Seele der Besatzung stets in ihrem mutig[fillText] Antlitz erstrahlte, zeigte sich das Wetter in seiner unvorhersehbar[fillText] Intensität.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "‘Abend’ ist maskulin im Dativ mit unbestimmtem Artikel (einem), daher: stürmischen."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Himmel’ ist maskulin im Nominativ mit bestimmtem Artikel (der), daher: dunkle."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Blitzen’ steht im Dativ Plural ohne Artikel – starke Endung im Dativ Plural ist -en."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Boote’ ist Plural im Nominativ/Akkusativ mit bestimmtem Artikel (die), daher: kleinen."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Meer’ ist neutrum im Akkusativ mit bestimmtem Artikel (das), daher: unruhige."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Seele’ ist feminin im Nominativ mit bestimmtem Artikel (die), daher: tapfere."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Antlitz’ ist neutrum im Dativ mit Possessivpronomen (ihrem), daher: mutigen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Intensität’ ist feminin im Dativ mit Possessivpronomen (seiner), daher: unvorhersehbaren."
+        }
+      ]
+    },
+    {
+      "title": "Die geheimnisvolle Reise durch die verzauberte Landschaft",
+      "text": "Während einer früh[fillText] Morgenstunde verließ ich das behaglich[fillText] Haus, um in eine weit[fillText] Welt aufzubrechen, die von mysteriös[fillText] Schatten und sanft[fillText] Licht durchzogen war. Auf dem Pfad begegnete ich einem freundlich[fillText] Reisenden, der mir von seinen abenteuerlich[fillText] Erlebnissen in den tief[fillText] Wäldern berichtete.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "‘Morgenstunde’ ist feminin im Dativ mit unbestimmtem Artikel (einer), daher: frühen."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Haus’ ist neutrum im Akkusativ mit bestimmtem Artikel (das), daher: behagliche."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Welt’ ist feminin im Akkusativ mit unbestimmtem Artikel (eine), daher: weite."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Schatten’ steht im Plural Dativ ohne Artikel – starke Endung im Dativ Plural ist -en."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Licht’ ist neutrum ohne Artikel im Prädikativ, wobei bei fehlendem Artikel im Neutrum Nominativ/Akkusativ die starke Endung -es verwendet wird; hier passt aber wegen der festen Wendung ‘sanftes Licht’ die Endung -es. (Anpassung: sanft[fillText] → Antwort: es)"
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Reisenden’ ist maskulin im Akkusativ mit unbestimmtem Artikel (einen), daher: freundlichen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Erlebnissen’ ist Plural im Dativ mit Possessivpronomen (seinen), daher: abenteuerlichen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Wäldern’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: tiefen."
+        }
+      ]
+    },
+    {
+      "title": "Im Schein der strahlenden Sterne und funkelnden Lichter",
+      "text": "In einer launisch[fillText] Nacht, als der klar[fillText] Himmel von unzählbar[fillText] Sternen übersät war, spazierte ich durch den geheimnisvoll[fillText] Park, der von sanft[fillText] Laternen beleuchtet wurde, und lauschte den leise[fillText] Stimmen der vorbeiziehenden Menschen.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "‘Nacht’ ist feminin im Dativ mit unbestimmtem Artikel (einer), daher: launische → launischen."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Himmel’ ist maskulin im Nominativ mit bestimmtem Artikel (der), daher: klare."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Sternen’ ist Plural im Dativ ohne Artikel – starke Endung im Dativ Plural ist -en."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Park’ ist maskulin im Akkusativ mit bestimmtem Artikel (den), daher: geheimnisvollen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Laternen’ ist Plural im Dativ mit (oft implizit) bestimmtem Artikel, daher: sanften."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Stimmen’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: leisen."
+        }
+      ]
+    },
+    {
+      "title": "Zwischen den imposanten Türmen und den schmalen Gassen der alten Stadt",
+      "text": "Als ich an den imposant[fillText] Türmen der alten Burg vorbeiging, fiel mir der markant[fillText] Anblick der schmal[fillText] Gassen auf, die von den kunstvoll[fillText] Fassaden gesäumt waren, und ich erinnerte mich an die lebhaft[fillText] erzählten Geschichten vergangener Zeiten.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "‘Türmen’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: imposanten."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Anblick’ ist maskulin im Nominativ mit bestimmtem Artikel (der), daher: markanter."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Gassen’ ist Plural im Akkusativ mit bestimmtem Artikel (die), daher: schmale → schmalen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Fassaden’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: kunstvollen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Geschichten’ ist Plural im Akkusativ mit (implizitem) bestimmtem Artikel, daher: lebhaften."
+        }
+      ]
+    },
+    {
+      "title": "Zwischen hitzigen Debatten und leisen Geständnissen",
+      "text": "Nachdem der hitzig[fillText] Diskurs in der groß[fillText] Versammlung zu lautstark[fillText] Diskussionen geführt hatte, verließ der müde[fillText] Redner den Raum, während im hinter dem Vorhang den verborgen[fillText] Saal zarte[fillText] Worte der Entschuldigung fielen.",
+      "solutions": [
+        {
+          "values": ["e"],
+          "explanation": "‘Diskurs’ ist maskulin im Nominativ mit bestimmtem Artikel (der), daher: hitziger."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Versammlung’ ist feminin im Dativ mit bestimmtem Artikel (der), daher: großen."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Diskussionen’ ist Plural im Akkusativ ohne Artikel – starke Endung im Akkusativ Plural ist -e."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Redner’ ist maskulin im Nominativ mit bestimmtem Artikel (der), daher: müde (bei bestimmten Artikeln im Nominativ Maskulinum ist die Endung -e)."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Saal’ ist maskulin im Dativ mit unbestimmtem Artikel (in der Verkürzung ‘im’ = in dem), daher: verborgenen."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Worte’ ist Plural im Akkusativ ohne Artikel – starke Endung im Akkusativ Plural ist -e."
+        }
+      ]
+    },
+    {
+      "title": "In den verschlungenen Pfaden der unerwarteten Begegnungen",
+      "text": "Auf meinem Weg durch die nebelverhüllt[fillText] Gasse, die von den sanft[fillText] Lichtern der Stadt erleuchtet wurde, stieß ich auf einen charmant[fillText] Fremden, der mir von seinen aufregend[fillText] Abenteuern in den weit[fillText] Gebirgspässen berichtete, und wir setzten unsere diskret[fillText] Unterhaltung bei einem dampfend[fillText] Kaffee fort.",
+      "solutions": [
+        {
+          "values": ["e"],
+          "explanation": "‘Gasse’ ist feminin im Akkusativ mit bestimmtem Artikel (die), daher: nebelverhüllte → nebelverhüllte (feminine Adjektive im Akkusativ erhalten normalerweise -e)."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Lichtern’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: sanften."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Fremden’ ist maskulin im Akkusativ mit unbestimmtem Artikel (einen), daher: charmanten."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Abenteuern’ ist Plural im Dativ mit Possessivpronomen (seinen), daher: aufregenden."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Gebirgspässen’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: weiten."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Unterhaltung’ ist feminin im Akkusativ mit Possessivpronomen (unsere), daher: diskrete."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Kaffee’ ist maskulin im Dativ mit unbestimmtem Artikel (einem) – im Dativ maskulin erhält das Adjektiv die Endung -en, daher: dampfenden."
+        }
+      ]
+    },
+    {
+      "title": "Unter dem drückenden Schatten der vergangenen Schlachten",
+      "text": "Während der regierungsschwach[fillText] Zeiten, in denen die tapfer[fillText] Soldaten in den schlammig[fillText] Gräben kämpften, erzählte man von den unerschütterlich[fillText] Standhaften, die inmitten der blutrot[fillText] Dämmerung ihre Pflicht erfüllten, und von der geheimniskvoll[fillText] Legende eines einst glanzvoll[fillText] Königs, der das Volk vereinte.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "‘Zeiten’ ist Plural im Genitiv/Dativ mit bestimmtem Artikel (der), daher: regierungsschwachen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Soldaten’ ist Plural im Nominativ mit bestimmtem Artikel (die), daher: tapfere → tapferen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Gräben’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: schlammigen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Standhaften’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: unerschütterlichen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Dämmerung’ ist feminin im Dativ mit bestimmtem Artikel (der), daher: blutroten."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Legende’ ist feminin im Dativ mit bestimmtem Artikel (der), daher: geheimniskollen → geheimniskollen (richtig: geheimniskollen passt nicht; gemeint ist ‚geheimniskvolle‘, Endung: -en)."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Königs’ steht im Genitiv mit unbestimmtem Artikel (eines), daher: glanzvollen."
+        }
+      ]
+    },
+    {
+      "title": "Durch die verworrenen Pfade des unerschütterlichen Glaubens",
+      "text": "Obgleich ich in den still[fillText] Tempeln der Tradition wandelte, begegnete ich einer warm[fillText] Seele, die inmitten der rau[fillText] Kritiker von einem tiefsinn[fillText] Vertrauen sprach, und auch in den bunt[fillText] Gemälden der Moderne fand sich oft eine lebensfreud[fillText] Inspiration.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "‘Tempeln’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: stillen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Seele’ ist feminin im Dativ mit unbestimmtem Artikel (einer), daher: warmen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Kritiker’ (als Plural im Genitiv oder Dativ mit Artikel ‚der‘) erhält hier im Kontext die Endung -en, daher: rauen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Vertrauen’ ist neutrum im Dativ mit unbestimmtem Artikel (einem), daher: tiefsinnigen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Gemälden’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: bunten."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Inspiration’ ist feminin im Nominativ/Akkusativ mit unbestimmtem Artikel (eine), daher: lebensfreudige."
+        }
+      ]
+    },
+    {
+      "title": "Im Spiegel der funkelnden Erinnerung an längst vergangene Zeiten",
+      "text": "Als ich an dem glänzend[fillText] See vorüberfuhr, der von den uralt[fillText] Ufern umschlossen war, erinnerte ich mich an die sanft[fillText] Melodien vergangener Tage, die in den schimmernd[fillText] Augen der Weisen noch immer lebendig wirkten, und an die bittersüß[fillText] Geschichten, die in den alten[fillText] Büchern festgehalten wurden.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "‘See’ ist maskulin im Dativ mit bestimmtem Artikel (dem), daher: glänzenden."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Ufern’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: uralten."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Melodien’ ist Plural im Akkusativ ohne Artikel, daher: sanfte."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Augen’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: schimmernden."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Geschichten’ ist Plural im Akkusativ ohne Artikel, daher: bittersüße."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Büchern’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: alten."
+        }
+      ]
+    },
+    {
+      "title": "Mit einem Hauch von Melancholie und strahlender Hoffnung",
+      "text": "Nachdem der sanft[fillText] Regen die grau[fillText] Straßen in ein funkelnd[fillText] Mosaik verwandelte, trat ich hinaus in die lebhaft[fillText] Welt, wo ich in den karg[fillText] Schatten der Bäume den warm[fillText] Strahlen der untergehenden Sonne begegnete, und spürte in meinem Herz ein zärtlich[fillText] Leuchten der Zukunft.",
+      "solutions": [
+        {
+          "values": ["e"],
+          "explanation": "‘Regen’ ist maskulin im Nominativ mit bestimmtem Artikel (der), daher: sanfter."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Straßen’ ist Plural im Akkusativ mit bestimmtem Artikel (die), daher: grauen."
+        },
+        {
+          "values": ["es"],
+          "explanation": "‘Mosaik’ ist neutrum im Akkusativ mit unbestimmtem Artikel (ein), daher: funkelndes."
+        },
+        {
+          "values": ["e"],
+          "explanation": "‘Welt’ ist feminin im Akkusativ mit bestimmtem Artikel (die), daher: lebhafte."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Schatten’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: kargen."
+        },
+        {
+          "values": ["en"],
+          "explanation": "‘Strahlen’ ist Plural im Dativ mit bestimmtem Artikel (den), daher: warmen."
+        },
+        {
+          "values": ["es"],
+          "explanation": "‘Leuchten’ ist neutrum im Nominativ mit unbestimmtem Artikel (ein), daher: zärtliches."
         }
       ]
     }

@@ -1,6 +1,163 @@
 {
-  "description": "Weitere Übungen zu deutschen Deklinationen",
+  "description": "Übungen zu starken und schwachen Adjektivdeklinationen",
   "exercises": [
+    {
+      "title": "Adjektivdeklinationen - 1",
+      "text": "Als ich meinen alt[fillText] Freund in dem klein[fillText] Café traf, bestellte er einen heiß[fillText] Kaffee und einen frischgeback[fillText] Kuchen. Der trüb[fillText] Himmel draußen passte nicht zu der fröhlich[fillText] Atmosphäre drinnen.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "In 'meinen alten Freund' steht das Adjektiv im maskulinen Akkusativ mit Possessivpronomen und erhält die Endung -en."
+        },
+        {
+          "values": ["en"],
+          "explanation": "In 'dem kleinen Café' steht das Adjektiv im neutrischen Dativ mit bestimmtem Artikel – hier ist die Endung -en richtig."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Für 'einen heißen Kaffee' im maskulinen Akkusativ mit unbestimmtem Artikel lautet die richtige Endung -en."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Bei 'einen frischgebackenen Kuchen' im maskulinen Akkusativ mit unbestimmtem Artikel wird die Endung -en benötigt."
+        },
+        {
+          "values": ["e"],
+          "explanation": "Im Ausdruck 'der trübe Himmel' (maskuliner Nominativ mit bestimmtem Artikel) ist die Endung -e korrekt."
+        },
+        {
+          "values": ["en"],
+          "explanation": "In 'der fröhlichen Atmosphäre' (femininer Dativ mit bestimmtem Artikel) erhält das Adjektiv die Endung -en."
+        }
+      ]
+    },
+    {
+      "title": "Adjektivdeklinationen - 2",
+      "text": "Beim Besuch in einem neu[fillText] Stadtteil entdeckte ich eine alt[fillText] Kirche und einen modern[fillText] Marktplatz, wo Händler frische[fillText] Waren anboten. Die stolz[fillText] Einwohner erklärten, dass das lebhaft[fillText] Treiben dem ganztägig[fillText] Rhythmus der Umgebung entspreche.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "In 'einem neuen Stadtteil' (maskuliner Dativ mit unbestimmtem Artikel) wird die Endung -en verwendet."
+        },
+        {
+          "values": ["e"],
+          "explanation": "Für 'eine alte Kirche' (femininer Akkusativ mit unbestimmtem Artikel) ist die Endung -e korrekt."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Bei 'einen modernen Marktplatz' (maskuliner Akkusativ mit unbestimmtem Artikel) lautet die richtige Endung -en."
+        },
+        {
+          "values": ["e"],
+          "explanation": "Im Fall von 'frische Waren' (starke Deklination im Plural ohne Artikel) ist die Endung -e richtig."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Mit 'die stolzen Einwohner' (Plural mit bestimmtem Artikel) erhält das Adjektiv die Endung -en."
+        },
+        {
+          "values": ["e"],
+          "explanation": "Für 'das lebhafte Treiben' (neutrischer Nominativ mit bestimmtem Artikel) wird die Endung -e genutzt."
+        },
+        {
+          "values": ["en"],
+          "explanation": "In 'dem ganztägigen Rhythmus' (maskuliner Dativ mit bestimmtem Artikel) ist die Endung -en erforderlich."
+        }
+      ]
+    },
+    {
+      "title": "Adjektivdeklinationen - 3",
+      "text": "Auf dem groß[fillText] Feld des belebt[fillText] Marktplatzes stand ein bunt[fillText] Zelt, in dem wir einen unvergesslich[fillText] Abend verbrachten. Der warm[fillText] Schein der alten Laternen verlieh der still[fillText] Nacht einen geheimnisvoll[fillText] Glanz, während die durst[fillText] Gäste den frisch[fillText] gebrühten Tee genossen.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "In 'dem großen Feld' (neutrischer Dativ mit bestimmtem Artikel) wird die Endung -en verwendet."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Bei 'des belebten Marktplatzes' (maskuliner Genitiv mit bestimmtem Artikel) lautet die Endung -en."
+        },
+        {
+          "values": ["es"],
+          "explanation": "Für 'ein buntes Zelt' (neutrischer Nominativ mit unbestimmtem Artikel) ist die Endung -es korrekt."
+        },
+        {
+          "values": ["en"],
+          "explanation": "In 'einen unvergesslichen Abend' (maskuliner Akkusativ mit unbestimmtem Artikel) erhält das Adjektiv die Endung -en."
+        },
+        {
+          "values": ["e"],
+          "explanation": "Der Ausdruck 'der warme Schein' (maskuliner Nominativ mit bestimmtem Artikel) benötigt die Endung -e."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Bei 'der stillen Nacht' (femininer Dativ mit bestimmtem Artikel) wird die Endung -en verwendet."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Für 'einen geheimnisvollen Glanz' (maskuliner Akkusativ mit unbestimmtem Artikel) ist die Endung -en korrekt."
+        },
+        {
+          "values": ["en"],
+          "explanation": "In 'die durstigen Gäste' (Plural mit bestimmtem Artikel) lautet die Endung -en."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Schließlich benötigt 'den frisch gebrühten Tee' (maskuliner Akkusativ mit bestimmtem Artikel) die Endung -en."
+        }
+      ]
+    },
+    {
+      "title": "Adjektivdeklinationen - 4",
+      "text": "Auf einer sonnig[fillText] Terrasse genoss ich einen aromatisch[fillText] Tee und aß eine zart[fillText] Schokoladentorte. Die freundlich[fillText] Bedienung erklärte, dass die hausgemacht[fillText] Delikatessen stets mit größter Sorgfalt zubereitet werden.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "In 'auf einer sonnigen Terrasse' (femininer Dativ mit unbestimmtem Artikel) erhält das Adjektiv die Endung -en."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Bei 'einen aromatischen Tee' (maskuliner Akkusativ mit unbestimmtem Artikel) wird die Endung -en verwendet."
+        },
+        {
+          "values": ["e"],
+          "explanation": "Für 'eine zarte Schokoladentorte' (femininer Akkusativ mit unbestimmtem Artikel) ist die Endung -e korrekt."
+        },
+        {
+          "values": ["e"],
+          "explanation": "Im Ausdruck 'die freundliche Bedienung' (femininer Nominativ mit bestimmtem Artikel) lautet die Endung -e."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Die Phrase 'die hausgemachten Delikatessen' (Plural mit bestimmtem Artikel) benötigt die Endung -en."
+        }
+      ]
+    },
+    {
+      "title": "Adjektivdeklinationen - 5",
+      "text": "Der Lehrer lobte die engagiert[fillText] Schüler, die in ihrem letzt[fillText] Unterricht einen besonders innovativ[fillText] Ansatz präsentiert hatten. Er betonte, dass ihre gründlich[fillText] vorbereiteten Projekte den anspruchsvoll[fillText] Anforderungen der modernen Bildung gerecht würden.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "In 'die engagierten Schüler' (Plural mit bestimmtem Artikel) erhält das Adjektiv die Endung -en."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Für 'in ihrem letzten Unterricht' (maskuliner Dativ mit Possessivpronomen) ist die Endung -en korrekt."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Bei 'einen innovativen Ansatz' (maskuliner Akkusativ mit unbestimmtem Artikel) lautet die richtige Endung -en."
+        },
+        {
+          "values": ["en"],
+          "explanation": "In 'ihre gründlich vorbereiteten Projekte' (Plural mit Possessivpronomen) wird die Endung -en verwendet."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Für 'den anspruchsvollen Anforderungen' (Plural im Dativ mit bestimmtem Artikel) erhält das Adjektiv die Endung -en."
+        }
+      ]
+    }
   ]
 }
-

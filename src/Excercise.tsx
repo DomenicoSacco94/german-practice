@@ -25,18 +25,23 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
       return userInput?.length> 0 && solutions.includes(userInput)
     }
 
-  const checkSolution = () => {
+  const validateExercise = () => {
       const newToolTips = [...defaultArray];
       let mistakes = 0;
       exercise.solutions.forEach((solution, index) => {
-          if (!isSolutionCorrect(inputs[index],solution. values)) {
+          if (!isSolutionCorrect(inputs[index],solution.values)) {
               newToolTips[index] = "[" + solution.values + "] - " + solution.explanation;
               mistakes++;
           }
       });
-      setScore((1 - (mistakes/defaultArray.length)) * 100);
+      const score = (1 - (mistakes/defaultArray.length)) * 100
+      setScore(parseFloat(score.toFixed(2)));
       setTooltips(newToolTips);
   };
+
+  const setBorderColor = (index: number) => {
+      return toolTips[index]?.length > 0 ? 'red' : inputs[index]?.length > 0 && score!=null? 'green' : 'black'
+  }
 
   return (
     <div>
@@ -50,7 +55,7 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
                       type="text"
                       className="holeInput"
                       value={inputs[index]}
-                      style = {{borderColor: toolTips[index]?.length > 0 ? 'red' : inputs[index]?.length > 0 && score!=null? 'green' : 'black'}}
+                      style = {{borderColor: setBorderColor(index)}}
                       onChange={(e) => handleChange(index, e.target.value)}
                   />
                   {toolTips[index]?.length > 0 && (
@@ -63,7 +68,7 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
         </div>
       ))}
       </div>
-      <Button className="validateButton" onClick={checkSolution}>Check Solution</Button>
+      <Button className="validateButton" onClick={validateExercise}>Check Solution</Button>
       {score!==null && <div className="scoreDisplay" style={{color: score<60 ? 'red' : score < 80? 'orange' : 'green'}}> Your score is {score} % </div>}
     </div>
   );

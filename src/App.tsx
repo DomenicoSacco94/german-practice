@@ -10,13 +10,13 @@ function App() {
   const [exercises, setExercises] = useState(null);
 
   useEffect(() => {
-    fetch('/german-practice/exercises/exercises.json')
+    fetch('/german-practice/exercises/exercises-prepositions.json')
       .then(response => response.json())
       .then(data => setExercises(data))
       .catch(error => console.error('Error fetching exercises:', error))
   }, [])
 
-  const handleChange = (value: number) => {
+  const handleExerciseNumChange = (value: number) => {
     setExerciseNum(value)
   }
 
@@ -26,10 +26,10 @@ function App() {
         {exercises && (
           <>
             <h1>{exercises.description}</h1>
-            <Select defaultValue={0} style={{ width: 120 }} onChange={handleChange}>
-              {exercises.exercises.map((_, index) => (
+            <Select defaultValue={0} onChange={handleExerciseNumChange}>
+              {exercises.exercises.map((exercise, index) => (
                 <Option key={index} value={index}>
-                  Exercise {index + 1}
+                    {exercise.title}
                 </Option>
               ))}
             </Select>

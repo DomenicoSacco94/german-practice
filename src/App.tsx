@@ -5,7 +5,7 @@ import Exercise from "./Excercise.tsx";
 
 const { Option } = Select
 
-const exerciseTypesOptions = ['prepositions', 'declesions']
+const exerciseTypesOptions = ['prepositions', 'declesions', 'both']
 
 function App() {
   const [exerciseNum, setExerciseNum] = useState(0);

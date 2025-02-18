@@ -1,0 +1,99 @@
+{
+  "description": "Übung zu Adjektivendungen und Präpositionen",
+  "exercises": [
+    {
+      "title": "Die verlorene Melodie",
+      "text": "Die alt[fillText] Geige, verstaubt und vergessen, lag auf dem Dachboden. Ein einzig[fillText] Sonnenstrahl, der durch ein undicht[fillText] Fenster fiel, tanzte auf ihren Saiten und schien ein[fillText] längst vergangene Melodie zu flüstern. Emilia, ein[fillText] jung[fillText] Frau mit einem Herzen voller Sehnsucht, entdeckte sie an einem trüb[fillText] Nachmittag beim Durchstöbern alt[fillText] Kisten. Sie hatte als Kind Geigenunterricht gehabt, doch die Musik war mit dem Tod ihr[fillText] Vaters verstummt, der ihr Lehrer gewesen war.  Zögernd nahm Emilia die Geige in die Hand. Das Holz fühlte sich warm und vertraut an. Sie strich vorsichtig über die Saiten, ein leise[fillText] melancholisch[fillText] Ton erklang. Er weckte Erinnerungen an ihren Vater, an sein sanft[fillText] Lächeln und sein geduldig[fillText] Art, ihr die Geheimnisse der Musik zu zeigen. Tränen stiegen ihr in die Augen.  Monate vergingen. Emilia übte jeden Tag, die alt[fillText] Geige wurde zu ihr[fillText] Vertrauten. Die Melodien ihr[fillText] Vaters kehrten zurück, zuerst zaghaft, dann immer kraftvoller. Sie spielte nicht nur die alt[fillText] Stücke, sie begann, eigene zu komponieren, inspiriert von ihren Erinnerungen und ihr[fillText] neu gefundenen Leidenschaft. Die Musik wurde zu ihr[fillText] Stimme, ein Ausdruck ihrer Trauer, aber auch ihrer Hoffnung.  Eines Tages wagte sie sich auf die Straße. Zuerst zögernd, dann immer selbstbewusster spielte sie ihre Musik. Die Menschen blieben stehen, lauschten den Klängen, die aus der alt[fillText] Geige kamen. In ihren Augen spiegelten sich Emotionen wider, die Emilia selbst kannte: Trauer, Freude, Sehnsucht. Die verloren[fillText] Melodie hatte ihren Weg zurück in die Welt gefunden, und mit ihr Emilias Herz. Sie hatte nicht nur die Musik ihr[fillText] Vaters wiederentdeckt, sondern auch ihre eigene Stimme.",
+      "solutions": [
+        {
+          "values": ["e"],
+          "explanation": "Nominativ Singular Femininum: Die alte Geige"
+        },
+        {
+          "values": ["en"],
+          "explanation": "Nominativ Singular Maskulinum: Ein einziger Sonnenstrahl"
+        },
+        {
+          "values": ["en"],
+          "explanation": "Akkusativ Singular Neutrum: ein undichtes Fenster"
+        },
+        {
+          "values": ["e"],
+          "explanation": "Akkusativ Singular Femininum: eine längst vergangene Melodie"
+        },
+        {
+          "values": ["e"],
+          "explanation": "Nominativ Singular Femininum: eine junge Frau"
+        },
+        {
+          "values": ["n"],
+          "explanation": "Dativ Singular Femininum: mit einem Herzen"
+        },
+        {
+          "values": ["en"],
+          "explanation": "Akkusativ Singular Maskulinum: einen trüben Nachmittag"
+        },
+        {
+          "values": ["er"],
+          "explanation": "Dativ Plural: beim Durchstöbern alter Kisten"
+        },
+        {
+          "values": ["es"],
+          "explanation": "Genitiv Singular Maskulinum: ihres Vaters"
+        },
+        {
+          "values": ["r"],
+          "explanation": "Nominativ Singular Maskulinum: ein leiser Ton"
+        },
+        {
+          "values": ["en"],
+          "explanation": "Nominativ Singular Maskulinum: ein melancholischer Ton"
+        },
+        {
+          "values": ["es"],
+          "explanation": "Akkusativ Singular Neutrum: sein sanftes Lächeln"
+        },
+        {
+          "values": ["e"],
+          "explanation": "Akkusativ Singular Femininum: ihre geduldige Art"
+        },
+        {
+          "values": ["e"],
+          "explanation": "Nominativ Singular Femininum: die alte Geige"
+        },
+        {
+          "values": ["er"],
+          "explanation": "Dativ Singular Femininum: zu ihrer Vertrauten"
+        },
+        {
+          "values": ["es"],
+          "explanation": "Genitiv Singular Maskulinum: ihres Vaters"
+        },
+        {
+          "values": ["e"],
+          "explanation": "Akkusativ Plural: die alten Stücke"
+        },
+        {
+          "values": ["r"],
+          "explanation": "Dativ Singular Femininum: mit ihrer neu gefundenen Leidenschaft"
+        },
+        {
+          "values": ["er"],
+          "explanation": "Dativ Singular Femininum: zu ihrer Stimme"
+        },
+        {
+          "values": ["r"],
+          "explanation": "Dativ Singular Femininum: aus der alten Geige"
+        },
+        {
+          "values": ["e"],
+          "explanation": "Nominativ Singular Femininum: die verlorene Melodie"
+        },
+        {
+          "values": ["es"],
+          "explanation": "Genitiv Singular Maskulinum: ihres Vaters"
+        }
+      ]
+    }
+  ]
+}

@@ -58,12 +58,9 @@
 
 @media (max-width: 600px) {
     .main {
-        grid-template-rows: auto auto auto;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "exerciseHeader"
-            "exerciseSelectors"
-            "exerciseCanvas";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .exerciseSelectors {
@@ -76,5 +73,21 @@
 
     .validateButton {
         width: 100%;
+    }
+
+    .inputContainer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    .holeText {
+        margin-right: 10px;
+        white-space: pre-wrap;
+    }
+
+    .holeInput {
+        max-width: 100px;
+        margin-right: 10px;
     }
 }

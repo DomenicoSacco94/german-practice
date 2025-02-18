@@ -1,0 +1,81 @@
+{
+  "description": "Weitere Übungen zu deutschen Präpositionen",
+  "exercises": [
+    {
+      "title": "Ein stimmungsvoller Cafébesuch",
+      "text": "Als ich meinen alt[fillText] Freund in dem klein[fillText] Café traf, bestellte er einen heiß[fillText] Kaffee und einen frischgeback[fillText] Kuchen. Der trüb[fillText] Himmel draußen passte nicht zu der fröhlich[fillText] Atmosphäre drinnen.",
+      "solutions": [
+        {
+          "values": ["en"],
+          "explanation": "In 'meinen alten Freund' steht das Adjektiv im maskulinen Akkusativ mit Possessivpronomen und erhält die Endung -en."
+        },
+        {
+          "values": ["en"],
+          "explanation": "In 'dem kleinen Café' steht das Adjektiv im neutrischen Dativ mit bestimmtem Artikel – hier ist die Endung -en richtig."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Für 'einen heißen Kaffee' im maskulinen Akkusativ mit unbestimmtem Artikel lautet die richtige Endung -en."
+        },
+        {
+          "values": ["en"],
+          "explanation": "Bei 'einen frischgebackenen Kuchen' im maskulinen Akkusativ mit unbestimmtem Artikel wird die Endung -en benötigt."
+        },
+        {
+          "values": ["e"],
+          "explanation": "Im Ausdruck 'der trübe Himmel' (maskuliner Nominativ mit bestimmtem Artikel) ist die Endung -e korrekt."
+        },
+        {
+          "values": ["en"],
+          "explanation": "In 'der fröhlichen Atmosphäre' (femininer Dativ mit bestimmtem Artikel) erhält das Adjektiv die Endung -en."
+        }
+      ]
+    },
+    {
+      "title": "Studentische Abenteurer",
+      "text": "Als ich [fillText] der Schule ankam, verließ ich das Gebäude [fillText] Hast. Ich ging [fillText] den Bürgersteig und wartete [fillText] den Bus. Dabei begegnete ich einem Freund, der [fillText] der Bushaltestelle stand, und erzählte mir, dass er [fillText] einen heftigen Streit geraten sei. Nachdem wir uns [fillText] das Gespräch verabschiedet hatten, setzte ich meinen Weg fort, lief [fillText] den Park, und setzte mich [fillText] eine Bank, um mich [fillText] die Hitze des Tages zu wehren.",
+      "solutions": [
+        {
+          "values": ["an"],
+          "explanation": "Die Präposition 'an' wird verwendet, um die Annäherung an einen Ort zu beschreiben, z. B. 'an der Schule ankommen'."
+        },
+        {
+          "values": ["aus"],
+          "explanation": "Die Präposition 'aus' drückt den Beweggrund aus – hier im Sinne von 'aus Hast' (in Eile)."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Mit 'auf' wird die Richtung auf eine Fläche angezeigt, z. B. 'auf den Bürgersteig gehen'."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Das Verb 'warten' verlangt die Präposition 'auf', wie in 'warten auf den Bus'."
+        },
+        {
+          "values": ["vor"],
+          "explanation": "Die Präposition 'vor' zeigt an, dass etwas unmittelbar davor liegt, z. B. 'vor der Bushaltestelle stehen'."
+        },
+        {
+          "values": ["in"],
+          "explanation": "Die Wendung 'in einen Streit geraten' verwendet 'in', um einen Vorgang oder Zustand zu beschreiben."
+        },
+        {
+          "values": ["von"],
+          "explanation": "Bei der Verabschiedung verwendet man 'von', wie in 'sich von dem Gespräch verabschieden'."
+        },
+        {
+          "values": ["durch"],
+          "explanation": "Die Präposition 'durch' drückt eine Bewegung innerhalb eines Raumes aus, z. B. 'durch den Park laufen'."
+        },
+        {
+          "values": ["auf"],
+          "explanation": "Das Verb 'sich setzen' verlangt 'auf', wie in 'sich auf eine Bank setzen'."
+        },
+        {
+          "values": ["gegen"],
+          "explanation": "Bei 'sich wehren' wird 'gegen' verwendet, um den Widerstand auszudrücken, z. B. 'sich gegen die Hitze wehren'."
+        }
+      ]
+    }
+      ]
+}

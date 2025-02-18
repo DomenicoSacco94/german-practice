@@ -43,35 +43,35 @@ const Exercise = ({exercise} : {exercise: {text : string, solutions : [{values: 
       return toolTips[index]?.length > 0 ? 'red' : inputs[index]?.length > 0 && score!=null? 'green' : 'black'
   }
 
-  return (
-    <div>
-      <div>
-      {parts.map((part, index) => (
-        <div key={index} className="inputContainer">
-            <span className="holeText"> {part} </span>
-          {index < inputs.length && (
-              <>
-                  <Input
-                      type="text"
-                      className="holeInput"
-                      value={inputs[index]}
-                      style = {{borderColor: setBorderColor(index)}}
-                      onChange={(e) => handleChange(index, e.target.value)}
-                  />
-                  {toolTips[index]?.length > 0 && (
-                      <Tooltip title={toolTips[index]}>
-                          <span className="tooltipIcon">ℹ️</span>
-                      </Tooltip>
-                  )}
-              </>
-          )}
+    return (
+        <div>
+            <div>
+                {parts.map((part, index) => (
+                    <div key={index} className="inputContainer">
+                        <span className="holeText"> {part} </span>
+                        {index < inputs.length && (
+                            <>
+                                <Input
+                                    type="text"
+                                    className="holeInput"
+                                    value={inputs[index]}
+                                    style = {{borderColor: setBorderColor(index)}}
+                                    onChange={(e) => handleChange(index, e.target.value)}
+                                />
+                                {toolTips[index]?.length > 0 && (
+                                    <Tooltip title={toolTips[index]}>
+                                        <span className="tooltipIcon">ℹ️</span>
+                                    </Tooltip>
+                                )}
+                            </>
+                        )}
+                    </div>
+                ))}
+            </div>
+            <Button className="validateButton" onClick={validateExercise}>Check Solution</Button>
+            {score!==null && <div className="scoreDisplay" style={{color: score<60 ? 'red' : score < 80? 'orange' : 'green'}}> Your score is {score} % </div>}
         </div>
-      ))}
-      </div>
-      <Button className="validateButton" onClick={validateExercise}>Check Solution</Button>
-      {score!==null && <div className="scoreDisplay" style={{color: score<60 ? 'red' : score < 80? 'orange' : 'green'}}> Your score is {score} % </div>}
-    </div>
-  );
+    );
 };
 
 export default Exercise;

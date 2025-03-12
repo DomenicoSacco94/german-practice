@@ -1,2 +1,3 @@
-# german-practice
-Very simple project, will load a JSON containing some blank-text exercises and their solutions.
+# German text-hole excercises
+
+A very simple project written in **React/Typescript** (using **Vite**), it loads configurable JSONs containing some german exercises and their solutions.
